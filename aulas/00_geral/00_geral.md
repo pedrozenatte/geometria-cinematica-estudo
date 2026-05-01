@@ -48,6 +48,8 @@ Playlist de Kevin Lynch and Frank Park:
 
 Leitura: Capítulo 3 do livro “Modern Robotics: Mechanics, Planning, and Control“. 
 
+**OBS:** Temos o curso completo que representa cada capítulo do livro Modern Robotics - https://www.youtube.com/watch?v=jVu-Hijns70&list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx
+
 **Parte 2:** 
 Playlists de Cork: 
 - Revisão de Geometria 2D: https://robotacademy.net.au/masterclass/2d-geometry/?lesson=71
