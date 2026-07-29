@@ -1,0 +1,7 @@
+Suppose that pᵢ ∈ ℝ³ and pᵢ′ ∈ ℝ³ are related by pᵢ′ = Rpᵢ, i = 1, 2, 3, for some unknown rotation matrix R. Find, if it exists, the rotation R for the three input-output pairs pᵢ ↦ pᵢ′, where
+
+p₁ = (√2, 0, 2) ↦ p₁′ = (0, 2, √2),
+
+p₂ = (1, 1, -1) ↦ p₂′ = (1/√2, 1/√2, -√2),
+
+p₃ = (0, 2√2, 0) ↦ p₃′ = (-√2, √2, -2).
