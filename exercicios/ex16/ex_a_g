@@ -1,0 +1,15 @@
+In terms of the x̂ₛ, ŷₛ, ẑₛ coordinates of a fixed space frame {s}, frame {a} has its x̂ₐ-axis pointing in the direction (0, 0, 1) and its ŷₐ-axis pointing in the direction (-1, 0, 0), and frame {b} has its x̂ᵦ-axis pointing in the direction (1, 0, 0) and its ŷᵦ-axis pointing in the direction (0, 0, -1). The origin of {a} is at (3, 0, 0) in {s} and the origin of {b} is at (0, 2, 0) in {s}.
+
+(a) Draw by hand a diagram showing {s}, {a} and {b} relative to {s}.
+
+(b) Write down the rotation matrices Rₛₐ and Rₛᵦ and the transformation matrices Tₛₐ and Tₛᵦ.
+
+(c) Given Tₛᵦ, how do you calculate Tᵦₛ⁻¹ without using a matrix inverse?
+
+(d) Given Tₛᵦ and Tₛₐ, how do you calculate Tₐᵦ (again without using matrix inverses)? Compute the answer and verify its correctness using your drawing.
+
+(e) Let T = Tₛᵦ be considered as a transformation operator consisting of a rotation about x̂ᵦ by -90° and a translation along ŷᵦ by 2 units. Calculate T₁ = TₛₐT. Does T₁ correspond to a rotation and translation about x̂ₛ and ŷₛ, respectively (a world-fixed transformation of Tₛₐ), or a rotation and translation about x̂ₐ and ŷₐ, respectively (a body-fixed transformation of Tₛₐ)? Now calculate T₂ = TTₛₐ. Does T₂ correspond to a body-fixed or world-fixed transformation of Tₛₐ?
+
+(f) Use Tₛᵦ to change the representation of the point pᵦ = (1, 2, 3) in {b} coordinates to {s} coordinates.
+
+(g) Choose a point p represented by pₛ = (1, 2, 3) in {s} coordinates. Calculate p′ = Tₛᵦpₛ and p″ = Tₛᵦ⁻¹pₛ. For each operation, should the result be interpreted as changing coordinates (from the {s} frame to {b}) without moving the point p, or as moving the location of the point without changing the reference frame of the representation?
