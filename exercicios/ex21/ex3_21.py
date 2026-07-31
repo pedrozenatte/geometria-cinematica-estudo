@@ -1,3 +1,30 @@
+# Exercise 3.21
+#
+# The space station of Figure 3.27 moves in circular orbit around the Earth,
+# and at the same time rotates about an axis always pointing toward the North
+# Star. Owing to an instrument malfunction, a spacecraft heading toward the
+# space station is unable to locate the docking port. An Earth-based ground
+# station sends the following information to the spacecraft:
+#
+#          [ 0  -1   0  -100 ]
+#          [ 1   0   0   300 ]
+# T_ab =   [ 0   0   1   500 ]
+#          [ 0   0   0     1 ]
+#
+#          [   0 ]
+# p_a =    [ 800 ]
+#          [   0 ]
+#
+# where p_a is the vector p expressed in {a}-frame coordinates.
+#
+# (a) From the given information, find r_b, the vector r expressed in
+#     {b}-frame coordinates.
+#
+# (b) Determine T_bc at the instant shown in the figure. Assume here that the
+#     ŷ- and ẑ-axes of the {a} and {c} frames are coplanar with the docking
+#     port.
+
+
 import numpy as np
 
 T_ab = np.array([
