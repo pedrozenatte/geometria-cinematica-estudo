@@ -1,3 +1,18 @@
+# Exercise 3.17
+#
+# Four reference frames are shown in the robot workspace of Figure 3.23:
+# the fixed frame {a}, the end-effector frame {b}, the camera frame {c},
+# and the workpiece frame {d}.
+#
+# (a) Find T_ad and T_cd in terms of the dimensions given in the figure.
+#
+# (b) Find T_ab given that
+#
+#           [ 1  0  0  4 ]
+#           [ 0  1  0  0 ]
+# T_bc =    [ 0  0  1  0 ]
+#           [ 0  0  0  1 ]
+
 import numpy as np
 
 T_ad = np.array([
